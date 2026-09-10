@@ -1,5 +1,21 @@
 # Lịch sử thay đổi / Changelog
 
+## [0.7.1] - 2026-09-11
+
+### Tiếng Việt
+
+#### Sửa lỗi
+
+- Sửa thao tác nhấp đúp thanh tiêu đề trên Windows: phóng to và khôi phục luân phiên đúng, giữ kích thước cửa sổ trước khi phóng to.
+- Xử lý đúng lệnh thanh tiêu đề do Chromium gửi, tránh đảo trạng thái thêm lần nữa.
+
+### English
+
+#### Fixed
+
+- Fix repeated Windows title-bar double-clicks to alternate correctly between maximize and restore while preserving the previous window bounds.
+- Handle Chromium caption system commands without toggling the resulting state a second time.
+
 ## [0.7.0] - 2026-09-11
 
 ### Tiếng Việt
